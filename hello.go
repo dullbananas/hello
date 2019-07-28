@@ -21,4 +21,9 @@ func main() {
 	hotelName += "o"
 	fmt.Println(greeting("flat"))
 	fmt.Println("Hotel: " + hotelName)
+
+	fmt.Println("I am going to count to 10 because I can.")
+	for i := 1; i <= 10; i++ {
+		fmt.Println(i)
+	}
 }
