@@ -12,13 +12,13 @@ import (
 )
 
 // greeting returns a string with some info.
-func greeting() string {
-	return "Hello flat world, the time is: " + time.Now().String()
+func greeting(adjective string) string {
+	return "Hello " + adjective + " world, the time is: " + time.Now().String()
 }
 
 func main() {
 	hotelName := "Trivag"
 	hotelName += "o"
-	fmt.Println(greeting())
+	fmt.Println(greeting("flat"))
 	fmt.Println("Hotel: " + hotelName)
 }
